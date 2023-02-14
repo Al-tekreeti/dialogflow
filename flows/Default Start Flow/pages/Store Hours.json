@@ -1,0 +1,15 @@
+{
+  "name": "c9e75df6-d07f-4f5f-92c2-9d8d3182d63f",
+  "displayName": "Store Hours",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "The Store hours are from 9 to 5." ]
+      },
+      "languageCode": "en"
+    } ]
+  }
+}

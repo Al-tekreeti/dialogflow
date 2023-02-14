@@ -1,0 +1,10 @@
+{
+  "name": "0eca2a90-18f0-40ed-bffd-bb0d578bc012",
+  "displayName": "shirts-agent-webhook",
+  "genericWebService": {
+    "uri": "https://us-central1-natalyislash-pcs-test.cloudfunctions.net/shirt-agent-webhook2"
+  },
+  "timeout": {
+    "seconds": 30
+  }
+}
