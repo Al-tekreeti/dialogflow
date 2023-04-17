@@ -1,0 +1,39 @@
+{
+  "name": "a36176c9-277a-4be8-a6ce-89858bd6181f",
+  "displayName": "Greetings",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hello"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Good day! What can I do for you today?" ]
+      } ],
+      "currentFlow": {
+        "name": "projects/mmaltekr-premium1/locations/us-central1/agents/52e2e55f-761d-46ba-97de-909f397e22b6/flows/00000000-0000-0000-0000-000000000000",
+        "displayName": "Default Start Flow"
+      }
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1681735939,
+    "nanos": 753802000
+  },
+  "testConfig": {
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  }
+}
