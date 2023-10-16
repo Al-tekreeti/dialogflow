@@ -1,0 +1,47 @@
+{
+  "name": "136b8e89-724f-469f-a34e-e7bd024727bd",
+  "displayName": "Order Confirmation",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "webhook": "shirts-agent-webhook-5",
+    "tag": "confirm"
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "You can cancel your order within $session.params.cancel-period days. Goodbye." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Session",
+    "name": "805b0b4d-1357-4ed8-97cf-35cbba9d287f"
+  } ],
+  "eventHandlers": [ {
+    "event": "webhook.error",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Webhook Error" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "1d13b38e-1685-461e-9f0b-8d13ddb269fb"
+  }, {
+    "event": "webhook.error.timeout",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Timeout" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "fd211024-f5c7-4136-95d8-b7d2e4a8770d"
+  } ]
+}
