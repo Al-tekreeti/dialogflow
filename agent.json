@@ -1,11 +1,33 @@
 {
   "defaultLanguageCode": "en",
   "timeZone": "America/Los_Angeles",
+  "enableLogging": true,
   "projectNumber": 30878581634,
+  "speechToTextSettings": {
+    "enableSpeechAdaptation": true
+  },
   "startFlow": "Default Start Flow",
+  "enableStackdriverLogging": true,
   "advancedSettings": {
-    "loggingSettings": {
+    "enabled": true,
+    "audioExportGcsDestination": {
+      "uri": "gs://df-agent-logs-dump"
+    },
+    "speechSettings": {
+      "endpointerSensitivity": 90,
+      "noSpeechTimeout": {
+        "seconds": 5
+      }
+    },
+    "playbackInterruptionSettings": {
     
+    },
+    "loggingSettings": {
+      "enableStackdriverLogging": true,
+      "enableInteractionLogging": true
     }
+  },
+  "speakerIdSettings": {
+  
   }
 }

@@ -12,7 +12,28 @@
         "languageCode": "en"
       } ]
     },
-    "name": "ef4eb12d-26d1-46af-9bce-5fc1ba52608c"
+    "name": "4a4ff5c1-5fe6-485a-9a96-0149099e7610"
+  }, {
+    "intent": "store.location",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Store Location",
+    "name": "68a6109a-6546-4ccd-993d-fabc8478ff33"
+  }, {
+    "intent": "store.hours",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Store Hours",
+    "name": "95694424-13ab-4ad6-b49f-679bfb08a211"
+  }, {
+    "intent": "order.new",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "New Order",
+    "name": "da464646-665a-4de7-b728-b7715cf64962"
   } ],
   "eventHandlers": [ {
     "event": "sys.no-match-default",
@@ -24,7 +45,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "dcd374df-ceda-4dd5-9bf1-e720870a1d0a"
+    "name": "64ce4227-be3b-4409-969e-8d64ecea3ab7"
   }, {
     "event": "sys.no-input-default",
     "triggerFulfillment": {
@@ -35,7 +56,7 @@
         "languageCode": "en"
       } ]
     },
-    "name": "3a32960b-7140-480c-8a96-4b9ba86fe8d3"
+    "name": "0b932d5b-e0db-41a9-9fe6-9616298bfffe"
   } ],
   "nluSettings": {
     "modelType": "MODEL_TYPE_STANDARD",

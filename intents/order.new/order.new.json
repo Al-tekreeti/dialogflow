@@ -1,0 +1,13 @@
+{
+  "name": "3e29f528-256b-4145-a747-3644999f548c",
+  "displayName": "order.new",
+  "parameters": [ {
+    "id": "color",
+    "entityType": "@sys.color"
+  }, {
+    "id": "size",
+    "entityType": "@Size"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 10
+}
